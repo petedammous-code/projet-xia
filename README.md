@@ -112,3 +112,11 @@ python -m unittest discover -s scripts -p "test_*.py"
 Remplacer `python` par le chemin correspondant ci-dessus. Les tests web sont lancés séparément pour couvrir explicitement l’interface. `python -m scripts.simuler_colle` permet aussi un dialogue au clavier en terminal avec le moteur actuel ; `/juste` est un raccourci de diagnostic et `/bilan` termine la séance. Cette simulation utilise les vraies API et un profil temporaire.
 
 La validation du rendu doit également couvrir une installation dans un environnement vierge et une khôlle complète au clavier dans le navigateur ; les seuls tests simulés ne prouvent pas le fonctionnement des services réels.
+
+## Équipe
+
+Projet réalisé lors du hackathon X-IA « Rise of Agents X » (École polytechnique, septembre 2026).
+
+- Youssef Abid — v1 du simulateur de colle (moteur, colleur LLM, interface web).
+- Pierre Dammous — khôlleur vocal en direct (`kholle_live/`) : agent voix, lecture du tableau et vérification SymPy, proxy de patience, intégration et scénario de démo, contenu pédagogique et pitch.
+- Gregory Fulachier — suite de tests pédagogiques, guide concours et profil élève.
